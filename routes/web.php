@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*回傳view*/
 Route::get('/', function () {
     return view('welcome');
 });
