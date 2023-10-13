@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 /*回傳view*/
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
+}); */
+
+/*回傳字串*/
+Route::get('/', function () {
+    return 'welcome';
 });
