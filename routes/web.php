@@ -19,6 +19,15 @@ use Illuminate\Support\Facades\Route;
 }); */
 
 /*回傳字串*/
-Route::get('/', function () {
+/*Route::get('/', function () {
     return 'welcome';
+}); */
+
+/*return redirect*/
+Route::get('r1', function () {
+    return redirect('r2');
+});
+
+Route::get('r1', function() {
+    return view('welcome');
 });
