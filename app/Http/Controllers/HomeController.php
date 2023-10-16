@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     publicfunctionindex()
     {
-        return 'index';
+        return view('welcome');
     }
 
 }
